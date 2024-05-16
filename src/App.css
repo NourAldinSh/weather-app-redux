@@ -1,0 +1,77 @@
+::selection {
+  background-color: #333;
+}
+
+body {
+  margin: 0;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+span {
+  margin: 0 !important;
+}
+
+@media (max-width: 575px) {
+  .cityName {
+    font-size: 3rem !important;
+    margin: 0 !important;
+  }
+  .time {
+    font-size: 1.15rem !important;
+  }
+  .degree {
+    font-size: 4rem !important;
+  }
+  .cloudIcon {
+    font-size: 135px !important;
+  }
+  .minMax {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* Fonts */
+@font-face {
+  font-family: IBM;
+  src: url("../public/fonts/IBM/IBMPlexSansArabic-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: IBM;
+  src: url("../public/fonts/IBM/IBMPlexSansArabic-ExtraLight.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: IBM;
+  src: url("../public/fonts/IBM/IBMPlexSansArabic-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: IBM;
+  src: url("../public/fonts/IBM/IBMPlexSansArabic-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: IBM;
+  src: url("../public/fonts/IBM/IBMPlexSansArabic-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: IBM;
+  src: url("../public/fonts/IBM/IBMPlexSansArabic-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: IBM;
+  src: url("../public/fonts/IBM/IBMPlexSansArabic-Bold.ttf");
+  font-weight: 700;
+}
+/* ==== Fonts ==== */
